@@ -1,7 +1,7 @@
 <template>
   <FunctionInput v-model="latex"></FunctionInput>
-  <div class="w-1/2 border-2">
-    <Graph :x-range="[1,num]"></Graph>
+  <div class="w-1/3 border-2">
+    <Graph :functions="functions"></Graph>
   </div>
 </template>
 
@@ -14,7 +14,17 @@ export default {
   data () {
     return {
       latex: "2^{3}",
-      num: 100
+    }
+  },
+  computed: {
+    functions () {
+      return [
+        {
+          name: "f",
+          variable: "x",
+          latex: this.latex
+        }
+      ]
     }
   }
 }

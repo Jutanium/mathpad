@@ -38,5 +38,5 @@ export default function useAxes({xRange, yRange, xAxisEl, yAxisEl}, marginPercen
     })
   })
 
-  return { xAxisStyles, yAxisStyles };
+  return { xScale, yScale, xAxisStyles, yAxisStyles };
 }
