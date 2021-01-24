@@ -5,11 +5,16 @@
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
   "dependencies": {
+    "jquery": "^3.5.1",
     "vue": "3.0.0"
   },
   "devDependencies": {
     "@snowpack/plugin-dotenv": "^2.0.5",
+    "@snowpack/plugin-postcss": "^1.1.0",
     "@snowpack/plugin-vue": "^2.3.0",
-    "snowpack": "^3.0.1"
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "snowpack": "^3.0.1",
+    "tailwindcss": "latest"
   }
 }
