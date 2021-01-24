@@ -5,6 +5,7 @@
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
   "dependencies": {
+    "d3": "^6.4.0",
     "jquery": "^3.5.1",
     "mathjs": "^9.0.0",
     "vue": "3.0.0"
